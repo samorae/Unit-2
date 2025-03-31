@@ -61,7 +61,7 @@ What would you like to purchase?: ''').lower()
                     print('Invalid card number, purchase cancelled') 
                     break
                 else:
-                    print("----- RECEIPT -----")
+                    print("----- Inflation Market -----")
                     for item, price in purchased_items:
                         print(f"{item}: {price}")
                     print(f"Total: {total}")
